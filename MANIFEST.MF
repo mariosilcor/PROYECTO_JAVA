@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Mario
+Main-Class: Bienvenida
+X-COMMENT: Coca-Cola

@@ -1,0 +1,22 @@
+/* Empaquetado de nuestro programa.
+   Para ello vamos a crear un archivo JAR ejecutable, es decir un archivo con extensión .jar
+   Lo cual nos permite ejecutar nuestro programa únicamente dando doble clic sobre él. De esta manera nosotros
+   ya no vamos a depender del símbolo del sistema y será mucho más sencillo poder compartir nuestros programas
+   con cualquier persona aún si no tiene conocimientos básicos en Informática.
+   
+   Vamos a crear un archivo de manifesto, este archivo de manifesto es el más importante para poder 
+   empaquetar una aplicación, pues en este archivo nosotros le vamos a indicar al empaquetadocuáles son 
+   las imágenes, donde se ubican y sobre todo cuál será la clase que arrancará.
+   
+   Lo primero es indicarle al programa que será un archivo de manifesto*/
+
+Manifest-Version: 1.0 /* Versión del programa */
+Created-By: Mario /* Creador del programa o software */
+Main-Class: Bienvenida /*Aquí se le indica al programa con que clase arrancará o iniciará */
+X-COMMENT: Coca-Cola /* Comentario o instrucción que el creador del programa quiere que lean los usuarios que 
+                        revisen los detalles del programa. Después del comentario se deberá dar 
+                        un ENTER obligatoriamente porque si no se agrega muy seguramente el archivo fallará */
+
+/* El archivo MANIFEST deberá tener extensión .MF
+   Se deberá cambiar al guardar el archivo en Tipo: Todos los archivos porque si se deja como
+   Documentos de texto, se guardará como Bloc de Notas y no se creará el archivo. Manifest-Version: 1.0 */
